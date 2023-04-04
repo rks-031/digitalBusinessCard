@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+}
+
+h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: aliceblue;
+}
+
+.imagebox {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  margin-top: 5px;
+}
+
+h3 {
+  color: rgb(171, 207, 239);
+  display: flex;
+}
+
+h4 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: aliceblue;
+}
+
+p {
+  color: azure;
+  max-width: 25rem;
+  margin: 7px;
+}
+
+.container {
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 5px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 0 0 10px 10px;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+  margin: 5px;
+}
+
+.header {
+  margin: auto;
+}
